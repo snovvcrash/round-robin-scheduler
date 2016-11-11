@@ -5,6 +5,8 @@ The implementation involves creating a shared library *libsched.so* (in Linux en
 
 ## How-to-build:
 
+For the purposes of this example, everything will happen in /home/username/foo.
+
   * Manually:
   
     * Compiling *sched.c*
