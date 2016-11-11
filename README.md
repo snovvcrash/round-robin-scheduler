@@ -1,7 +1,7 @@
 # round-robin-scheduler
 ## An implementation of scheduling round-robin-algorithm with a changing time quantum for each job made for educational purposes.
 
-The implementation involves creating a shared library *libsched.so* (in Linux environment), linking it with driver-program *test_lib.exec* and automation of the entire process above by writing a *Makefile*.
+The implementation involves creating a shared library *libsched.so* (in Linux environment), linking it with a driver-program *test_lib.exec* and automation of the entire process above by writing a *Makefile*.
 
 ## How-to-build:
 
