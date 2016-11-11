@@ -1,7 +1,7 @@
 #pragma once
-#ifndef __sched_h
-#define __sched_h
+#ifndef sched_h__
+#define sched_h__
 
 #define PROCESS_NUMBER (10)
 
-#endif // __sched_h
+#endif // sched_h__
