@@ -10,7 +10,7 @@ The implementation involves creating a shared library *libsched.so* (in Linux en
     * Compiling *sched.c*
     
       ```
-      $ gcc -c -Wall -Werror -fpic sched.c
+      $ gcc -c -Wall -Werror -fPIC sched.c
       ```
       
     * Creating a shared library from an object file
