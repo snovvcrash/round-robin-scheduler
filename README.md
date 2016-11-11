@@ -3,7 +3,7 @@
 
 The implementation involves creating a shared library *libsched.so* (in Linux environment), linking it with a driver-program *test_lib.exec* and automation of the entire process above by writing a *Makefile*.
 
-You can vary the total number of jobs put to scheduling by changing the `PROCESS_NUMBER` constant in *sched.h*.
+You can vary the total number of jobs put to the scheduling by changing the `PROCESS_NUMBER` constant in *sched.h*.
 
 ## How-to-build:
 
