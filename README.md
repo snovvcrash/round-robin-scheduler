@@ -3,6 +3,8 @@
 
 The implementation involves creating a shared library *libsched.so* (in Linux environment), linking it with a driver-program *test_lib.exec* and automation of the entire process above by writing a *Makefile*.
 
+You can vary the total number of jobs put to scheduling by changing the `PROCESS_NUMBER` constant in *sched.h*.
+
 ## How-to-build:
 
 For the purposes of this example, everything will happen in /home/username/foo.
@@ -24,7 +26,7 @@ For the purposes of this example, everything will happen in /home/username/foo.
     * Linking *test_sched.c* with a shared library to build a driver-program
     
       ```
-      $ gcc -L /home/username/foo -Wl,-rpath=/home/username/foo -Wall -o test_lib.exec test_sched.c -ldl -lsched
+      $ gcc -L/home/username/foo -Wl,-rpath=/home/username/foo -Wall -o test_lib.exec test_sched.c -ldl -lsched
       ```
       
     * Running the test
