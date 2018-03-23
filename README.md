@@ -32,7 +32,7 @@ For the purposes of this example, everything will happen in /home/username/foo.
   $ ./test_lib.exec libsched.so
   ```
   
-### Via the *Makefile*:
+### Makefile:
   
   1. Build and run the test
   ```
